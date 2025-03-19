@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/rhkdgns95/argocd-kubernetes-gitops-tutorial.git
-    targetRevision: main
+    targetRevision: HEAD
     # targetRevision: main
     path: gitops/basic
   destination:
